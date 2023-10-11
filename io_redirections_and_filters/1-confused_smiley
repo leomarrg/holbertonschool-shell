@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "\00D4"
+echo -e "\U00D4"
