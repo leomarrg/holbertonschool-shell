@@ -35,7 +35,7 @@ add exe permissions chmod u+x
 
 cmd cat /etc/passwd
 
-git add, commit, push
+git add, commit, pdush
 
 3. Display the content of /etc/passwd and /etc/hosts
 
@@ -46,4 +46,13 @@ cmd cat /etc/passwd /etc/hosts
 
 git add, commit, push
 
+4. Display the last 10 lines of /etc/passwd
+
+create file vim 4-lastlines
+
+add cmd tails to display last 10 lines
+
+make file exe with chmod u+x
+
+git add, commit, push
 
