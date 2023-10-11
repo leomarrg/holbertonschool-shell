@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "/u00D4"
+echo -e "("\00D4"o)"
