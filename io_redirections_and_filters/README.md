@@ -33,7 +33,16 @@ git add, commit and push
 create file - vim 2-hellofile
 add exe permissions chmod u+x
 
-cmd cat 2-hellofile
+cmd cat /etc/passwd
+
+git add, commit, push
+
+3. Display the content of /etc/passwd and /etc/hosts
+
+create file
+add exe permissions chmod u+x
+
+cmd cat /etc/passwd /etc/hosts
 
 git add, commit, push
 
