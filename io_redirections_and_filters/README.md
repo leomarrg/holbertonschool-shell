@@ -16,7 +16,7 @@ echo "Hello World!"
 
 did git add, commit and push
 
-Write a script that displays a confused smiley "(Ôo)'. file: 1-confused_smiley
+1. Write a script that displays a confused smiley "(Ôo)'. file: 1-confused_smiley
 
 vim 1-confused_smiley
 chmod u+x 1-confused_smiley
@@ -24,4 +24,17 @@ chmod u+x 1-confused_smiley
 add cmd echo -e "\00D4" to output O with ^ on top - just a test to see if it works
 git add, commit, push
 
-edit cmd echo -e "("\00D4"o)"
+ cmd echo -e "\"(\00D4o)'"
+
+git add, commit and push
+
+2. Display the content of the /etc/passwd file.
+
+create file - vim 2-hellofile
+add exe permissions chmod u+x
+
+cmd cat 2-hellofile
+
+git add, commit, push
+
+
