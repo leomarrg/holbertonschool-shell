@@ -56,3 +56,12 @@ make file exe with chmod u+x
 
 git add, commit, push
 
+5. Display the first 10 lines of /etc/passwd
+
+create file
+
+add head cmd to display first 10 lines
+make file exe with chmod u+x
+
+git add, commit, push
+
